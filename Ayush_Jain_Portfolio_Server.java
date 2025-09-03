@@ -100,7 +100,7 @@ public class Ayush_Jain_Portfolio_Server {
                     "      </div>\n" +
                     "      <div style=\"margin-top:18px;display:flex;gap:12px;flex-wrap:wrap\">\n" +
                     "        <div class=\"card highlight\">\n" +
-                    "          <strong>Schooling:</strong><br/> St.attri senior secondry public school\n" +
+                    "          <strong>EDUCATION:</strong><br/> St.attri senior secondry public school\n" +
                     "        </div>\n" +
                     "        <div class=\"card highlight\">\n" +
                     "          <strong>Current Education:</strong><br/> B.Tech (ELECTRONICS AND TELECOMMUNICATION) - (Chandigrah group of colleges)\n" +
@@ -247,3 +247,4 @@ public class Ayush_Jain_Portfolio_Server {
         }
     }
 }
+

@@ -90,7 +90,7 @@ public class Ayush_Jain_Portfolio_Server {
                     "  <section class=\"hero\">\n" +
                     "    <div class=\"hero-left\">\n" +
                     "      <h1>Hello, I'm <span style=\"background:linear-gradient(90deg,var(--accent1),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent;\">Ayush Jain</span></h1>\n" +
-                    "      <p class=\"muted\">“I’m an Electronics and Telecommunication Engineering student and budding software developer who loves building beautiful UIs, animations, and small full-stack projects.”.</p>\n" +
+                    "      <p class=\"muted\">“I’m an Electronics and Telecommunication Engineering student and budding software developer who loves building beautiful UIs, animations, and small full-stack projects.”</p>\n" +
                     "      <div style=\"margin-top:10px;font-size:18px\">\n" +
                     "        <span class=\"muted\">I build</span> <span class=\"type\" id=\"typed\">interactive websites</span>\n" +
                     "      </div>\n" +

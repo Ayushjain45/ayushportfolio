@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ayush Jain - Portfolio</title>
+  <style>
+    body {margin:0;font-family:Arial, sans-serif;background:#0f1724;color:#e6eef8;}
+    header {display:flex;justify-content:space-between;align-items:center;padding:20px;background:#0b1220;position:sticky;top:0;}
+    header h1 {margin:0;font-size:24px;background:linear-gradient(90deg,#7c3aed,#06b6d4);-webkit-background-clip:text;color:transparent;}
+    nav a {color:#e6eef8;margin-left:15px;text-decoration:none;font-weight:600;}
+    nav a:hover {color:#06b6d4;}
+    .hero {display:flex;flex-wrap:wrap;align-items:center;padding:40px;gap:30px;}
+    .hero-left {flex:1;min-width:280px;}
+    .hero-left h2 {margin:0;font-size:32px;}
+    .hero-left p {margin:15px 0;}
+    .card {background:#1a2236;padding:15px;border-radius:10px;box-shadow:0 4px 15px rgba(0,0,0,0.5);} 
+    .highlight {margin:8px 0;}
+    .profile {width:300px;height:300px;border-radius:12px;overflow:hidden;}
+    .profile img {width:100%;height:100%;object-fit:cover;}
+    section {padding:40px;}
+    h2 {margin-bottom:20px;}
+    .skills .bar {height:12px;background:#333;border-radius:6px;overflow:hidden;margin-bottom:10px;}
+    .skills .bar span {display:block;height:100%;background:linear-gradient(90deg,#7c3aed,#06b6d4);} 
+    footer {padding:20px;text-align:center;background:#0b1220;color:#aaa;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ayush Jain</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-left">
+      <h2>Hello, I'm Ayush Jain</h2>
+      <p>An <strong>Electronics and Telecommunication Engineering student</strong> who loves building beautiful UIs, animations, and small full‑stack projects.</p>
+      <div class="card highlight"><strong>Schooling:</strong> St. Xavier's High School</div>
+      <div class="card highlight"><strong>Current Education:</strong> B.Tech (Electronics and Telecommunication)</div>
+      <div class="card highlight"><strong>Email:</strong> ayushjain00111@gmail.com</div>
+      <div class="card highlight"><strong>Contact:</strong> 8054220702</div>
+    </div>
+    <div class="profile">
+      <img src="profile.jpg" alt="Ayush Jain">
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm Ayush Jain, an Electronics and Telecommunication Engineering student with a passion for software development. I enjoy blending creativity with technology, building interactive web projects, and exploring how hardware and software can come together for innovative solutions.</p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Technical Skills</h2>
+    <div class="bar"><span style="width:90%"> Java</span></div>
+    <div class="bar"><span style="width:80%"> HTML/CSS</span></div>
+    <div class="bar"><span style="width:75%"> JavaScript</span></div>
+    <div class="bar"><span style="width:70%"> SQL</span></div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="card">Portfolio Website with animations (this one!)</div>
+    <div class="card">Mini Food Ordering System</div>
+    <div class="card">Music Streaming Web App</div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to work together, feel free to reach out!</p>
+    <p><strong>Email:</strong> ayushjain00111@gmail.com</p>
+    <p><strong>Phone:</strong> 8054220702</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Ayush Jain. All rights reserved.</p>
+  </footer>
+</body>
+</html>
